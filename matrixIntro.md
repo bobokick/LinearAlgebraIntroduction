@@ -7,11 +7,7 @@
 ### 1.11 线性方程组
 
 矩阵刚被发明时是用来解线性方程组的，线性方程组就是一组n元一次方程，形如
-$$\begin{cases}
-a_1x+b_1y+c_1z=d_1\\
-a_2x+b_2y+c_2z=d_2\\
-a_3x+b_3y+c_3z=d_3
-\end{cases}$$
+$\begin{cases}a_1x+b_1y+c_1z=d_1\\a_2x+b_2y+c_2z=d_2\\a_3x+b_3y+c_3z=d_3\end{cases}$
 
 $a_{1...3},b_{1...3},c_{1...3}$为系数，$x,y,z$为未知数，所以线性方程组也可以表示为$Au=d$，其中$A$为$$\begin{pmatrix}
 a_1&b_1&c_1\\
